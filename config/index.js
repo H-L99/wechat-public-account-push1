@@ -4,10 +4,10 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "wxc35991576e736584",
+  APP_ID: "wxe7acb0f8db5785a3",
 
   // 公众号APP_SECRET
-  APP_SECRET: "db28f4120d087bc809b42454610d0f74",
+  APP_SECRET: "6a05fcf45961f50ed752db467a7bd4d1",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -27,17 +27,17 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "要",
+      name: "老婆",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ok85-5_IGuOB9nv8ZcsbMuk68ttg",
+      id: "o0RKw6r7LYcxLSnAJNhY3LZLlaIU",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "	7zdf4fFLeSPGJfDH0ufNnpHCrliAaL8HcE555LCunhU",
+      useTemplateId: "	UVLbxgDt3pjvu58hRjjFHcZ-Cmq9ahCrnbKxVGF_WBA",
       // 所在省份
-      province: "安徽",
+      province: "陕西",
       // 所在城市
-      city: "合肥",
+      city: "西安",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://www.bilibili.com"
+      openUrl: "https://www.2726037830@qq.com"
     } 
   ],
 
@@ -46,7 +46,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "zjV1glIuCXo4Csr23aXWEio1iP74sZJ7IQEES95lDsg6c4yOU",
+  CALLBACK_TEMPLATE_ID: "KgpxGVkTxbYPVCkEH9A4y7M9K9GeBeoZfwI8mOxt2QA",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -54,7 +54,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oPrjH6ImDiXbObWdbiVQtAB7PuoQ",
+      id: "o0RKw6hRZeU6h8imPuz-TLi_NaK4",
     }, 
   ],
     
@@ -75,10 +75,10 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "张小🐖", "year": "1999", "date": "09-18"},
-    {"type": "节日", "name": "相识纪念日", "year": "2018", "date": "04-26"},
-    {"type": "生日", "name": "小王", "year": "1997", "date": "11-01"},
-    {"type": "节日", "name": "在一起纪念日", "year": "2022", "date": "07-04"},
+    {"type": "生日", "name": "老婆", "year": "2002", "date": "08-18"},
+    {"type": "节日", "name": "在一起纪念日", "year": "2021", "date": "11-21"},
+    {"type": "生日", "name": "小韩", "year": "2003", "date": "05-02"},
+    {"type": "节日", "name": "一年纪念日", "year": "2022", "date": "11-21"},
   ],
 
   /**
@@ -96,16 +96,8 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-07-04"},
-    // 结婚纪念日
- //   {"keyword": "marry_day", date: "2020-01-04"},
-    // 退伍日, 不用可以删掉
- //   {"keyword": "ex_day", date: "2022-08-31"},
-    // sakana日
-    // {"keyword": "sakana_day", date: "2022-01-06"},
-    // ... 
+    {"keyword": "love_day", date: "2021-11-21"}
   ],
-
   /** 插槽 */
 
   /** 你可以在这里写超多的你想显示的内容了！
